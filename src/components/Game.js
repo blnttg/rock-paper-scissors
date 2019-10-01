@@ -213,7 +213,7 @@ export default class Game extends Component {
                             </span>
                         </div>
                     </div>
-                    <button onClick={this.changeScreen.bind(this)} className='block pt-16 text-xl font-bold tracking-wide text-gray-500 hover:text-gray-700 cursor-pointer m-2'>new game</button>
+                    <button onClick={this.changeScreen.bind(this)} className='block mt-16 text-xl font-bold tracking-wide text-gray-500 hover:text-gray-700 cursor-pointer m-2'>new game</button>
                 </div>}
                 {/* { document.getElementById('game-results').style.visibility = 'hidden' } */}
             </div>
